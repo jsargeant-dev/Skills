@@ -1,9 +1,9 @@
 ---
-name: quickstart-website-pages
+name: marketing-quickstart-html
 description: Create West Monroe branded static website page mockups and lightweight front-end-only landing pages from plain-English goals, delivered by default as one packaged self-contained HTML file with inline CSS, inline minimal JavaScript, and embedded or remote assets. Use when a nontechnical user wants help shaping a webpage, campaign page, proposal page, service page, event page, ABM page, microsite concept, or design handoff prototype; ask guided intake questions, recommend page structure and UI direction, draft copy, and build or outline HTML without backend systems.
 ---
 
-# Quickstart Website Pages
+# Marketing Quickstart HTML
 
 ## Purpose
 
