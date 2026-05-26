@@ -1,6 +1,6 @@
 ---
 name: quickstart-website-pages
-description: Create West Monroe branded static website page mockups and lightweight front-end-only landing pages from plain-English goals. Use when a nontechnical user wants help shaping a webpage, campaign page, proposal page, service page, event page, ABM page, microsite concept, or design handoff prototype; ask guided intake questions, recommend page structure and UI direction, draft copy, and build or outline HTML without backend systems.
+description: Create West Monroe branded static website page mockups and lightweight front-end-only landing pages from plain-English goals, delivered by default as one packaged self-contained HTML file with inline CSS, inline minimal JavaScript, and embedded or remote assets. Use when a nontechnical user wants help shaping a webpage, campaign page, proposal page, service page, event page, ABM page, microsite concept, or design handoff prototype; ask guided intake questions, recommend page structure and UI direction, draft copy, and build or outline HTML without backend systems.
 ---
 
 # Quickstart Website Pages
@@ -8,6 +8,8 @@ description: Create West Monroe branded static website page mockups and lightwei
 ## Purpose
 
 Help nontechnical users turn a rough page idea into a West Monroe branded static webpage or lightweight microsite concept. Guide the user through the goal, audience, page type, content, user action, and visual direction, then create a practical outline, first-pass copy, and optionally a front-end-only HTML mockup for design or web-team handoff.
+
+When producing a build artifact, default to one packaged self-contained `.html` file so the user can share, preview, and attach it without understanding folders, relative paths, or build tools.
 
 Default to West Monroe branding unless the user explicitly requests neutral wireframes, client branding, or co-branding.
 
@@ -18,6 +20,7 @@ Create front-end-only pages:
 - Static landing pages, campaign pages, proposal pages, service pages, event pages, thought leadership pages, ABM account pages, and simple microsites.
 - Minimal JavaScript interactions such as accordions, tabs, anchor navigation, modals, carousels, simple filters, and restrained animation.
 - Placeholder areas or embeds for third-party forms, scheduling links, PDFs, videos, and HubSpot forms.
+- Single-file HTML deliverables with inline CSS and inline minimal JavaScript.
 
 Do not build backend applications:
 
@@ -55,9 +58,10 @@ Ask at most 3-5 questions before making a first recommendation. If the user prov
 2. Recommend the best page type and explain why in one short paragraph.
 3. Propose a page structure with section names and the job each section performs.
 4. Draft first-pass copy in a West Monroe voice: clear, business-focused, practical, and credible.
-5. If asked to build, create a static HTML mockup using West Monroe patterns and assets where available.
-6. QA the page for responsive layout, text overflow, clear CTAs, placeholder labels, and frontend-only scope.
-7. Provide design/web handoff notes that call out placeholder copy, imagery needs, links/forms to connect, and suggested refinements.
+5. If asked to build, create a static single-file HTML mockup using West Monroe patterns and assets where available.
+6. Package the deliverable as one self-contained `.html` file with inline CSS, inline minimal JavaScript, and embedded or stable remote assets.
+7. QA the page for responsive layout, text overflow, clear CTAs, placeholder labels, frontend-only scope, and missing asset references.
+8. Provide design/web handoff notes that call out placeholder copy, imagery needs, links/forms to connect, and suggested refinements.
 
 ## Page Structure Patterns
 
@@ -87,21 +91,38 @@ Avoid asking novice users to choose CSS frameworks, grids, breakpoints, or compo
 When creating HTML:
 
 - Keep the output static and portable.
-- Prefer a single self-contained HTML file for quick review unless the user asks for a larger site.
+- Deliver one self-contained `.html` file by default.
+- Inline page-specific CSS inside a `<style>` tag in the HTML file.
+- Inline minimal page-specific JavaScript inside a `<script>` tag in the HTML file.
+- Do not create separate CSS, JavaScript, image, font, or asset folders unless the user explicitly asks for a multi-file project or production handoff.
+- Avoid local relative asset paths such as `./assets/image.png` in the default deliverable.
+- Use embedded assets with data URIs when practical and file size remains reasonable. For large images, use stable remote URLs from the brand repository, an approved live asset URL, or clearly marked placeholders.
+- If a file must depend on remote assets, verify or note the source URLs and explain that the HTML is still packaged as a single file but requires internet access for those assets.
 - Use semantic HTML, responsive CSS, accessible button/link states, and stable layout constraints.
 - Use restrained JavaScript only when it helps the page concept.
 - Mark placeholder content clearly in comments or handoff notes, not as noisy on-page instructional text.
 - Include realistic CTAs and navigation labels.
 - Avoid generic SaaS styling, decorative gradient blobs, and backend-like UI unless the page concept requires them.
 
+## Packaging QA
+
+Before finishing a built page, check:
+
+- The final artifact is a single `.html` file.
+- The page opens directly in a browser without a local server.
+- There are no broken local references to external CSS, JavaScript, image, or font files.
+- Any intentional remote assets use stable URLs and are listed in the handoff notes.
+- The page still works if copied or emailed as a single file.
+
 ## Handoff Notes
 
 End substantial outputs with concise handoff notes:
 
+- Final packaged HTML filename
 - Page goal
 - Recommended audience and CTA
 - Placeholder content or assets
 - Brand/template assumptions
+- Remote assets or embeds the file depends on, if any
 - Design refinements needed
 - Web implementation notes, including any HubSpot, form, analytics, or asset hosting needs
-
