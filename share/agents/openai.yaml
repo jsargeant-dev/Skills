@@ -1,0 +1,4 @@
+interface:
+  display_name: "Share"
+  short_description: "Inline linked HTML assets for sharing"
+  default_prompt: "Use $share to turn this built HTML file into one self-contained shareable HTML file."
