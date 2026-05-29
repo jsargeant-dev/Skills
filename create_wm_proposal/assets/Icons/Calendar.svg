@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.99 76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f900d3;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M0,0v76h75.99V0H0ZM73.99,74H2V2h71.99v72Z"/>
+      <path class="cls-1" d="M64.91,12.2h-9.39v-4.17h-2v4.17h-9.01v-4.17h-2v4.17h-9.01v-4.17h-2v4.17h-9.01v-4.17h-2v4.17h-9.39v55.95h53.81V12.2ZM62.91,66.15H13.11V14.2h7.39v4.93h2v-4.93h9.01v4.93h2v-4.93h9.01v4.93h2v-4.93h9.01v4.93h2v-4.93h7.39v51.95Z"/>
+      <path class="cls-1" d="M18.31,35.46h12.04v-11.72h-12.04v11.72ZM20.31,25.74h8.04v7.72h-8.04v-7.72Z"/>
+      <path class="cls-1" d="M31.99,35.46h12.04v-11.72h-12.04v11.72ZM33.99,25.74h8.04v7.72h-8.04v-7.72Z"/>
+      <path class="cls-1" d="M45.67,35.46h12.04v-11.72h-12.04v11.72ZM47.67,25.74h8.04v7.72h-8.04v-7.72Z"/>
+      <path class="cls-1" d="M18.31,49.16h12.04v-11.72h-12.04v11.72ZM20.31,39.44h8.04v7.72h-8.04v-7.72Z"/>
+      <path class="cls-1" d="M31.99,49.16h12.04v-11.72h-12.04v11.72ZM33.99,39.44h8.04v7.72h-8.04v-7.72Z"/>
+      <path class="cls-1" d="M45.67,49.16h12.04v-11.72h-12.04v11.72ZM47.67,39.44h8.04v7.72h-8.04v-7.72Z"/>
+      <path class="cls-1" d="M18.31,62.08h12.04v-11.72h-12.04v11.72ZM20.31,52.35h8.04v7.72h-8.04v-7.72Z"/>
+      <path class="cls-1" d="M31.99,62.08h12.04v-11.72h-12.04v11.72ZM33.99,52.35h8.04v7.72h-8.04v-7.72Z"/>
+      <rect class="cls-1" x="45.88" y="50.82" width="11.14" height="10.79"/>
+    </g>
+  </g>
+</svg>

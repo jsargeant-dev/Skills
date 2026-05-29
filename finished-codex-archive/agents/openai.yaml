@@ -1,0 +1,3 @@
+display_name: Finished Codex Archive
+short_description: Move completed Codex project folders into Shared Codex Files.
+default_prompt: Archive the finished Codex project folder into Shared Codex Files.

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f900d3;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-1" x="7.94" y="31.48" width="2" height="4"/>
+      <rect class="cls-1" x="7.94" y="14.32" width="2" height="6.29"/>
+      <rect class="cls-1" x="7.94" y="22.9" width="2" height="6.29"/>
+      <polygon class="cls-1" points="9.94 10.03 11.94 10.03 11.94 8.03 7.94 8.03 7.94 12.03 9.94 12.03 9.94 10.03"/>
+      <rect class="cls-1" x="47.34" y="8.03" width="6.16" height="2"/>
+      <rect class="cls-1" x="39.03" y="8.03" width="6.16" height="2"/>
+      <rect class="cls-1" x="22.41" y="8.03" width="6.16" height="2"/>
+      <rect class="cls-1" x="30.72" y="8.03" width="6.16" height="2"/>
+      <rect class="cls-1" x="14.1" y="8.03" width="6.16" height="2"/>
+      <rect class="cls-1" x="55.65" y="8.03" width="6.16" height="2"/>
+      <polygon class="cls-1" points="65.96 12.03 67.96 12.03 67.96 8.03 63.96 8.03 63.96 10.03 65.96 10.03 65.96 12.03"/>
+      <rect class="cls-1" x="65.96" y="30.79" width="2" height="6.15"/>
+      <rect class="cls-1" x="65.96" y="14.18" width="2" height="6.15"/>
+      <rect class="cls-1" x="65.96" y="39.09" width="2" height="6.15"/>
+      <rect class="cls-1" x="65.96" y="55.69" width="2" height="6.15"/>
+      <rect class="cls-1" x="65.96" y="47.39" width="2" height="6.15"/>
+      <rect class="cls-1" x="65.96" y="22.48" width="2" height="6.15"/>
+      <polygon class="cls-1" points="67.96 64 65.96 64 65.96 66 63.96 66 63.96 68 67.96 68 67.96 64"/>
+      <rect class="cls-1" x="55.67" y="66" width="6.15" height="2"/>
+      <rect class="cls-1" x="47.38" y="66" width="6.15" height="2"/>
+      <rect class="cls-1" x="41.23" y="66" width="4" height="2"/>
+      <path class="cls-1" d="M38.95,38.39l7.76-8.84.53,4.06,1.98-.26-.96-7.29h-8.16v2h5.24l-7.85,8.95H7.94v30.98h31.01v-29.61ZM36.95,66H9.94v-26.98h27.01v26.98Z"/>
+      <path class="cls-1" d="M0,0v76h76V0H0ZM74,74H2V2h72v72Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.99 76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f900d3;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M0,0v76h75.99V0H0ZM73.99,74H2V2h71.99v72Z"/>
+      <polygon class="cls-1" points="9.99 28.43 24.39 21.07 24.39 31.3 24.39 56.7 24.39 57.13 26.39 57.13 26.39 56.7 26.39 33.3 37.98 33.3 37.98 56.7 39.98 56.7 39.98 31.3 26.39 31.3 26.39 17.81 7.99 27.2 7.99 57.13 9.99 57.13 9.99 28.43"/>
+      <rect class="cls-1" x="12" y="30.76" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="18.69" y="30.76" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="12" y="37.14" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="18.69" y="37.14" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="12" y="43.53" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="18.69" y="43.53" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="12" y="49.91" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="18.69" y="49.91" width="3.26" height="3.26"/>
+      <rect class="cls-1" x="28.05" y="35.37" width="7.64" height="2"/>
+      <rect class="cls-1" x="28.05" y="39.4" width="7.64" height="2"/>
+      <rect class="cls-1" x="28.05" y="43.5" width="7.64" height="2"/>
+      <polygon class="cls-1" points="46.47 43.02 51.73 46.76 62.25 37.19 62.19 38.13 62.19 38.67 64.19 38.67 64.19 38.19 64.48 33.46 58.84 34.2 59.11 36.19 60.6 35.99 51.57 44.2 46.27 40.43 43.16 43.88 43.21 46.2 46.47 43.02"/>
+      <path class="cls-1" d="M43.48,56.7h5.27v-9h-5.27v9ZM45.48,49.7h1.27v5h-1.27v-5Z"/>
+      <path class="cls-1" d="M49.92,56.7h5.27v-7.79h-5.27v7.79ZM51.92,50.92h1.27v3.79h-1.27v-3.79Z"/>
+      <path class="cls-1" d="M56.25,56.7h5.27v-10.85h-5.27v10.85ZM58.25,47.86h1.27v6.85h-1.27v-6.85Z"/>
+      <path class="cls-1" d="M62.7,56.7h5.27v-14.42h-5.27v14.42ZM64.7,44.28h1.27v10.42h-1.27v-10.42Z"/>
+    </g>
+  </g>
+</svg>
